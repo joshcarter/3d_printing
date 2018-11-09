@@ -6,9 +6,9 @@
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
-    <diameter>0.3</diameter>
+    <diameter>0.5</diameter>
     <autoWidth>0</autoWidth>
-    <width>0.33</width>
+    <width>0.5</width>
     <extrusionMultiplier>0.9</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>1.5</retractionDistance>
@@ -171,6 +171,9 @@
   <useFixedBridgingAngle>0</useFixedBridgingAngle>
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
+  <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
+  <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
+  <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>2</minPrintHeight>
   <useMaxPrintHeight>0</useMaxPrintHeight>
@@ -202,6 +205,7 @@
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <extrusionMultiplier>0.9</extrusionMultiplier>
       <useRetract>1</useRetract>
@@ -242,11 +246,9 @@
     <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
-      <diameter>0.3</diameter>
-      <autoWidth>0</autoWidth>
-      <width>0.33</width>
       <extrusionMultiplier>0.9</extrusionMultiplier>
       <useRetract>1</useRetract>
       <retractionDistance>1.5</retractionDistance>
@@ -286,6 +288,7 @@
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>0.9|0.9|0.9|0.9|0.9|0.9</filamentDensities>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>1</extrusionMultiplier>
@@ -325,6 +328,7 @@
     <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>0.9|0.9|0.9|0.9|0.9|0.9</filamentDensities>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>1</extrusionMultiplier>
@@ -364,6 +368,7 @@
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>1.15|1.15|1.15|1.15|1.15|1.15</filamentDensities>
+    <firstLayerUnderspeed>0.12</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>1</extrusionMultiplier>
@@ -401,14 +406,15 @@
     <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>1.27|1.27|1.27|1.27|1.27|1.27</filamentDensities>
+    <firstLayerUnderspeed>0.12</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>1.5</retractionDistance>
+      <retractionDistance>1.0</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>1800</retractionSpeed>
+      <retractionSpeed>600</retractionSpeed>
       <useCoasting>0</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
@@ -420,8 +426,8 @@
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="240"/>
-      <setpoint layer="2" temperature="235"/>
+      <setpoint layer="1" temperature="235"/>
+      <setpoint layer="2" temperature="230"/>
     </temperatureController>
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
@@ -441,6 +447,7 @@
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>80|80|80|80|80|80</filamentPricesPerKg>
     <filamentDensities>1.21|1.21|1.21|1.21|1.21|1.21</filamentDensities>
+    <firstLayerUnderspeed>0.12</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>1</extrusionMultiplier>
