@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="LulzBot TAZ 6 Single" version="2018-11-12 11:42:34" app="S3D-Software 4.1.0">
+<profile name="LulzBot TAZ 6 Single" version="2018-11-16 13:51:00" app="S3D-Software 4.1.0">
   <baseProfile></baseProfile>
-  <printMaterial>PLA 1.75mm</printMaterial>
+  <printMaterial>ABS 1.75mm</printMaterial>
   <printQuality>Medium</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -9,7 +9,7 @@
     <diameter>0.5</diameter>
     <autoWidth>0</autoWidth>
     <width>0.5</width>
-    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>1.5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -62,7 +62,7 @@
   <infillExtruder>0</infillExtruder>
   <internalInfillPattern>Rectilinear</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
-  <infillPercentage>25</infillPercentage>
+  <infillPercentage>30</infillPercentage>
   <outlineOverlapPercentage>25</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>200</infillExtrusionWidthPercentage>
   <minInfillLength>3</minInfillLength>
@@ -90,20 +90,18 @@
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="210"/>
-    <setpoint layer="2" temperature="205"/>
+    <setpoint layer="1" temperature="245"/>
+    <setpoint layer="2" temperature="240"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>1</isHeatedBed>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="65"/>
-    <setpoint layer="2" temperature="55"/>
-    <setpoint layer="5" temperature="50"/>
+    <setpoint layer="1" temperature="95"/>
+    <setpoint layer="2" temperature="90"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
-    <setpoint layer="2" speed="100"/>
   </fanSpeed>
   <blipFanToFullPower>1</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -145,7 +143,7 @@
   <baudRateOverride>250000</baudRateOverride>
   <overridePrinterModels>1</overridePrinterModels>
   <printerModelsOverride>LulzBot_TAZ6.stl</printerModelsOverride>
-  <startingGcode>M75 ; start GLCD timer,G26 ; clear potential 'probe fail' condition,G21 ; set units to Millimetres,M107 ; disable fans,M420 S0 ; disable previous leveling matrix,G90 ; absolute positioning,M82 ; set extruder to absolute mode,G92 E0 ; set extruder position to 0,M140 S[bed0_temperature] ; start heating bed,M104 S170 ; start heating extruder,G28 ; Home all axis,G1 E-30 F100 ; retract filament,M109 R170 ; wait for extruder to reach wiping temp,G1 X-15 Y100 F3000 ; move above wiper pad,G1 Z1 ; push nozzle into wiper,G1 X-17 Y95 F1000 ; slow wipe,G1 X-17 Y90 F1000 ; slow wipe,G1 X-17 Y85 F1000 ; slow wipe,G1 X-15 Y90 F1000 ; slow wipe,G1 X-17 Y80 F1000 ; slow wipe,G1 X-15 Y95 F1000 ; slow wipe,G1 X-17 Y75 F2000 ; fast wipe,G1 X-15 Y65 F2000 ; fast wipe,G1 X-17 Y70 F2000 ; fast wipe,G1 X-15 Y60 F2000 ; fast wipe,G1 X-17 Y55 F2000 ; fast wipe,G1 X-15 Y50 F2000 ; fast wipe,G1 X-17 Y40 F2000 ; fast wipe,G1 X-15 Y45 F2000 ; fast wipe,G1 X-17 Y35 F2000 ; fast wipe,G1 X-15 Y40 F2000 ; fast wipe,G1 X-17 Y70 F2000 ; fast wipe,G1 X-15 Y30 Z2 F2000 ; fast wipe,G1 X-17 Y35 F2000 ; fast wipe,G1 X-15 Y25 F2000 ; fast wipe,G1 X-17 Y30 F2000 ; fast wipe,G1 X-15 Y25 Z1.5 F1000 ; slow wipe,G1 X-17 Y23 F1000 ; slow wipe,G1 Z10 ; raise extruder,G1 X-9 Y-9 ; move above first probe point,M204 S100 ; set probing acceleration,G29 ; start auto-leveling sequence,M420 S1 ; activate bed level matrix,M425 Z			     ; use measured Z backlash for compensation,M425 Z F0		     ; turn off measured Z backlash compensation. (if activated in the quality settings this command will automatically be ignored),M204 S500 ; restore standard acceleration,G1 X0 Y0 Z15 F5000 ; move up off last probe point,G4 S1 ; pause,M400 ; wait for moves to finish,M117 Heating... ; progress indicator message on LCD,M104 S[extruder0_temperature] ; start heating extruder,M190 S[bed0_temperature] ; stabilize bed,M109 S[extruder0_temperature] ; stabilize extruder,G1 Z2 E0 F75 ; prime tiny bit of filament into the nozzle,M117 TAZ 6 Printing...</startingGcode>
+  <startingGcode>M75 ; start GLCD timer,G26 ; clear potential 'probe fail' condition,G21 ; set units to Millimetres,M107 ; disable fans,M420 S0 ; disable previous leveling matrix,G90 ; absolute positioning,M82 ; set extruder to absolute mode,G92 E0 ; set extruder position to 0,M140 S[bed0_temperature] ; start heating bed,M104 S170 ; start heating extruder,G28 ; Home all axis,G1 E-30 F100 ; retract filament,M109 R170 ; wait for extruder to reach wiping temp,G1 X-15 Y100 F3000 ; move above wiper pad,G1 Z1 ; push nozzle into wiper,G1 X-17 Y95 F1000 ; slow wipe,G1 X-17 Y90 F1000 ; slow wipe,G1 X-17 Y85 F1000 ; slow wipe,G1 X-15 Y90 F1000 ; slow wipe,G1 X-17 Y80 F1000 ; slow wipe,G1 X-15 Y95 F1000 ; slow wipe,G1 X-17 Y75 F2000 ; fast wipe,G1 X-15 Y65 F2000 ; fast wipe,G1 X-17 Y70 F2000 ; fast wipe,G1 X-15 Y60 F2000 ; fast wipe,G1 X-17 Y55 F2000 ; fast wipe,G1 X-15 Y50 F2000 ; fast wipe,G1 X-17 Y40 F2000 ; fast wipe,G1 X-15 Y45 F2000 ; fast wipe,G1 X-17 Y35 F2000 ; fast wipe,G1 X-15 Y40 F2000 ; fast wipe,G1 X-17 Y70 F2000 ; fast wipe,G1 X-15 Y30 Z2 F2000 ; fast wipe,G1 X-17 Y35 F2000 ; fast wipe,G1 X-15 Y25 F2000 ; fast wipe,G1 X-17 Y30 F2000 ; fast wipe,G1 X-15 Y25 Z1.5 F1000 ; slow wipe,G1 X-17 Y23 F1000 ; slow wipe,G1 Z10 ; raise extruder,G1 X-9 Y-9 ; move above first probe point,M204 S100 ; set probing acceleration,G29 ; start auto-leveling sequence,M420 S1 ; activate bed level matrix,M425 Z ; use measured Z backlash for compensation,M425 Z F0 ; turn off measured Z backlash compensation. (if activated in the quality settings this command will automatically be ignored),M204 S500 ; restore standard acceleration,G1 X0 Y0 Z15 F5000 ; move up off last probe point,G4 S1 ; pause,M400 ; wait for moves to finish,M117 Heating... ; progress indicator message on LCD,M104 S[extruder0_temperature] ; start heating extruder,M190 S[bed0_temperature] ; stabilize bed,M109 S[extruder0_temperature] ; stabilize extruder,G1 Z2 E0 F75 ; prime tiny bit of filament into the nozzle,M117 TAZ 6 Printing...</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
@@ -160,7 +158,7 @@
   <supportUnderspeed>0.8</supportUnderspeed>
   <rapidXYspeed>7200</rapidXYspeed>
   <rapidZspeed>1002</rapidZspeed>
-  <minBridgingArea>50</minBridgingArea>
+  <minBridgingArea>20</minBridgingArea>
   <bridgingExtraInflation>0</bridgingExtraInflation>
   <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
   <bridgingSpeedMultiplier>1</bridgingSpeedMultiplier>
@@ -169,7 +167,7 @@
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
   <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
   <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
-  <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
+  <filamentDensities>0.9|0.9|0.9|0.9|0.9|0.9</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>2</minPrintHeight>
   <useMaxPrintHeight>0</useMaxPrintHeight>
@@ -201,8 +199,10 @@
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
+    <defaultSpeed>3600</defaultSpeed>
     <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>0.9</extrusionMultiplier>
       <useRetract>1</useRetract>
       <retractionDistance>1.5</retractionDistance>
@@ -217,8 +217,6 @@
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="210"/>
       <setpoint layer="2" temperature="205"/>
@@ -226,8 +224,6 @@
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>1</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="65"/>
       <setpoint layer="2" temperature="55"/>
@@ -242,6 +238,7 @@
     <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
+    <defaultSpeed>3600</defaultSpeed>
     <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
@@ -280,6 +277,7 @@
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>0.9|0.9|0.9|0.9|0.9|0.9</filamentDensities>
+    <defaultSpeed>3600</defaultSpeed>
     <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
@@ -297,8 +295,6 @@
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="245"/>
       <setpoint layer="2" temperature="240"/>
@@ -306,8 +302,6 @@
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>1</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="95"/>
       <setpoint layer="2" temperature="90"/>
@@ -320,6 +314,7 @@
     <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>0.9|0.9|0.9|0.9|0.9|0.9</filamentDensities>
+    <defaultSpeed>3600</defaultSpeed>
     <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
@@ -356,12 +351,13 @@
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>1.15|1.15|1.15|1.15|1.15|1.15</filamentDensities>
-    <firstLayerUnderspeed>0.12</firstLayerUnderspeed>
+    <defaultSpeed>2400</defaultSpeed>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>1.5</retractionDistance>
+      <retractionDistance>3</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>1800</retractionSpeed>
@@ -373,18 +369,15 @@
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="245"/>
+      <setpoint layer="1" temperature="260"/>
+      <setpoint layer="1" temperature="255"/>
     </temperatureController>
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>1</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="110"/>
+      <setpoint layer="1" temperature="45"/>
     </temperatureController>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
@@ -394,6 +387,7 @@
     <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
     <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
     <filamentDensities>1.27|1.27|1.27|1.27|1.27|1.27</filamentDensities>
+    <defaultSpeed>3600</defaultSpeed>
     <firstLayerUnderspeed>0.12</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
@@ -411,8 +405,6 @@
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="235"/>
       <setpoint layer="2" temperature="230"/>
@@ -420,8 +412,6 @@
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>1</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="75"/>
       <setpoint layer="5" temperature="65"/>
@@ -435,6 +425,7 @@
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>80|80|80|80|80|80</filamentPricesPerKg>
     <filamentDensities>1.21|1.21|1.21|1.21|1.21|1.21</filamentDensities>
+    <defaultSpeed>2400</defaultSpeed>
     <firstLayerUnderspeed>0.12</firstLayerUnderspeed>
     <extruder name="Primary Extruder">
       <toolheadNumber>0</toolheadNumber>
@@ -452,17 +443,13 @@
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="245"/>
-      <setpoint layer="2" temperature="250"/>
+      <setpoint layer="1" temperature="250"/>
+      <setpoint layer="2" temperature="245"/>
     </temperatureController>
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>1</isHeatedBed>
-      <relayBetweenLayers>0</relayBetweenLayers>
-      <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="40"/>
     </temperatureController>
@@ -471,12 +458,51 @@
       <setpoint layer="2" speed="100"/>
     </fanSpeed>
   </autoConfigureMaterial>
+  <autoConfigureMaterial name="T-Glase 2.85mm">
+    <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
+    <filamentPricesPerKg>80|80|80|80|80|80</filamentPricesPerKg>
+    <filamentDensities>1.21|1.21|1.21|1.21|1.21|1.21</filamentDensities>
+    <defaultSpeed>1600</defaultSpeed>
+    <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>3</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0</retractionZLift>
+      <retractionSpeed>1800</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <temperatureController name="Primary Extruder">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="245"/>
+      <setpoint layer="2" temperature="240"/>
+    </temperatureController>
+    <temperatureController name="Heated Bed">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>1</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="45"/>
+    </temperatureController>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="10"/>
+      <setpoint layer="4" speed="25"/>
+      <setpoint layer="8" speed="50"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
   <autoConfigureQuality name="Medium">
     <layerHeight>0.2</layerHeight>
     <topSolidLayers>5</topSolidLayers>
     <bottomSolidLayers>5</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
-    <infillPercentage>25</infillPercentage>
+    <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
 </profile>

@@ -45,4 +45,7 @@ Switching to 3D Solutech orange ABS. Added fan for quick layers per
 note on #9. No too-much-plastic problem, even before the upper layers
 where the fans would kick in. Looks like it's an issue with IC3D ABS
 
+## 11 Simplify3D, CC3D Silk Gold 1.75mm PLA
+
+Hull finish has flaws, blobbing.
 
