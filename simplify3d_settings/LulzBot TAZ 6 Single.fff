@@ -244,7 +244,7 @@
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>0.9</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>1.5</retractionDistance>
+      <retractionDistance>3</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>1800</retractionSpeed>
@@ -320,7 +320,7 @@
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>1.5</retractionDistance>
+      <retractionDistance>3</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>1800</retractionSpeed>
@@ -393,7 +393,7 @@
       <toolheadNumber>0</toolheadNumber>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>1.0</retractionDistance>
+      <retractionDistance>3.0</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>600</retractionSpeed>
@@ -495,6 +495,42 @@
       <setpoint layer="2" speed="10"/>
       <setpoint layer="4" speed="25"/>
       <setpoint layer="8" speed="50"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="POM/Acetal 1.75mm">
+    <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
+    <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
+    <filamentDensities>1.41|1.41|1.41|1.41|1.41|1.41</filamentDensities>
+    <defaultSpeed>1800</defaultSpeed>
+    <firstLayerUnderspeed>0.33</firstLayerUnderspeed>
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>3.0</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0</retractionZLift>
+      <retractionSpeed>600</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <temperatureController name="Primary Extruder">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="220"/>
+      <setpoint layer="2" temperature="215"/>
+    </temperatureController>
+    <temperatureController name="Heated Bed">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>1</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="110"/>
+    </temperatureController>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureQuality name="Medium">
