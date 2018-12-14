@@ -49,3 +49,50 @@ where the fans would kick in. Looks like it's an issue with IC3D ABS
 
 Hull finish has flaws, blobbing.
 
+## 12
+
+## 13 Simplify3D, S3D PolyLite PLA
+
+0.8mm E3D nozzle at 215C print temp, investing higher temps with
+larger nozzle.
+
+## 14 Simplify3D, S3D PolyLite PLA
+
+0.8mm E3D nozzle at 220C print temp.
+
+## 15 Simplify3D, S3D PolyLite PLA
+
+0.8mm E3D nozzle at 225C print temp.
+
+## 16 Prusa i3 Mk3, Prusa gcode, Prusa PLA
+
+Nozzle snagged top of print and dragged it around. Good hull. 0.15mm
+layer height, 215C nozzle, 60C bed, other settings unknown.
+
+## 17 Prusa, Simplify3D, Prusa PLA
+
+Test print with S3D profile from Josef Prusa, slight modifications.
+
+## 18 Prusa, Slic3r PE, Prusa PLA
+
+Test print with Slic3r PE stock profile, 0.2mm layer height.
+
+## 19 Prusa, Simplify3D, AmazonBasics PETG
+
+Test print with PETG. Some stringing issues, top of arches doesn't
+look so hot.
+
+## 20 Prusa, Simplify3D, 3D Solutech PETG
+
+Looks pretty much the same as AmazonBasics.
+
+## 21 Taz, Cura, Polymaker Polylite PLA
+
+Testing fuzzy skin mode with parameters: 0.2 thickness, 1.25 density,
+0.5mm point distance. Very nice fuzzified surface.
+
+## 22 Taz, Cura, Gizmo Dorks ABS
+
+Fuzzy skin mode with ABS, same parameters as #21. Surface looks about
+the same.
+

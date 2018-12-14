@@ -14,7 +14,7 @@
     <retractionDistance>1.5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0</retractionZLift>
-    <retractionSpeed>1800</retractionSpeed>
+    <retractionSpeed>600</retractionSpeed>
     <useCoasting>0</useCoasting>
     <coastingDistance>0.2</coastingDistance>
     <useWipe>0</useWipe>
@@ -208,7 +208,7 @@
       <retractionDistance>1.5</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>1800</retractionSpeed>
+      <retractionSpeed>600</retractionSpeed>
       <useCoasting>0</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
@@ -247,7 +247,7 @@
       <retractionDistance>3</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>1800</retractionSpeed>
+      <retractionSpeed>600</retractionSpeed>
       <useCoasting>0</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
@@ -286,7 +286,7 @@
       <retractionDistance>1.5</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>1800</retractionSpeed>
+      <retractionSpeed>600</retractionSpeed>
       <useCoasting>0</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
@@ -323,7 +323,7 @@
       <retractionDistance>3</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>1800</retractionSpeed>
+      <retractionSpeed>600</retractionSpeed>
       <useCoasting>0</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
@@ -360,7 +360,7 @@
       <retractionDistance>3</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>1800</retractionSpeed>
+      <retractionSpeed>600</retractionSpeed>
       <useCoasting>0</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
@@ -421,6 +421,43 @@
       <setpoint layer="2" speed="100"/>
     </fanSpeed>
   </autoConfigureMaterial>
+  <autoConfigureMaterial name="PC 1.75mm">
+    <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
+    <filamentPricesPerKg>60|25|25|25|25|25</filamentPricesPerKg>
+    <filamentDensities>1.21|0.9|0.9|0.9|0.9|0.9</filamentDensities>
+    <defaultSpeed>2400</defaultSpeed>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>2</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0</retractionZLift>
+      <retractionSpeed>600</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.2</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>5</wipeDistance>
+    </extruder>
+    <temperatureController name="Primary Extruder">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="245"/>
+      <setpoint layer="2" temperature="240"/>
+    </temperatureController>
+    <temperatureController name="Heated Bed">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>1</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="80"/>
+    </temperatureController>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="10"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
   <autoConfigureMaterial name="Cheetah 2.85mm">
     <filamentDiameters>2.85|2.85|2.85|2.85|2.85|2.85</filamentDiameters>
     <filamentPricesPerKg>80|80|80|80|80|80</filamentPricesPerKg>
@@ -434,7 +471,7 @@
       <retractionDistance>1.5</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>1800</retractionSpeed>
+      <retractionSpeed>600</retractionSpeed>
       <useCoasting>0</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
@@ -471,7 +508,7 @@
       <retractionDistance>3</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>1800</retractionSpeed>
+      <retractionSpeed>600</retractionSpeed>
       <useCoasting>0</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
