@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<profile name="Prusa i3 Mk3" version="2019-03-02 19:54:05" app="S3D-Software 4.1.0">
+<profile name="Prusa Mk3s" version="2019-04-19 13:19:04" app="S3D-Software 4.1.2">
   <baseProfile>Prusa Mendel (modified)</baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Normal</printQuality>
-  <printExtruders></printExtruders>
+  <printExtruders/>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
     <diameter>0.4</diameter>
@@ -25,7 +25,7 @@
   <topSolidLayers>4</topSolidLayers>
   <bottomSolidLayers>4</bottomSolidLayers>
   <perimeterOutlines>2</perimeterOutlines>
-  <printPerimetersInsideOut>1</printPerimetersInsideOut>
+  <printPerimetersInsideOut>0</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
   <startPointOriginY>0</startPointOriginY>
@@ -64,7 +64,7 @@
   <externalInfillPattern>Rectilinear</externalInfillPattern>
   <infillPercentage>20</infillPercentage>
   <outlineOverlapPercentage>25</outlineOverlapPercentage>
-  <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
+  <infillExtrusionWidthPercentage>125</infillExtrusionWidthPercentage>
   <minInfillLength>2</minInfillLength>
   <infillLayerInterval>1</infillLayerInterval>
   <internalInfillAngles>30,-60</internalInfillAngles>
@@ -84,7 +84,7 @@
   <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
   <supportType>1</supportType>
   <supportGridSpacing>1</supportGridSpacing>
-  <maxOverhangAngle>60</maxOverhangAngle>
+  <maxOverhangAngle>45</maxOverhangAngle>
   <supportAngles>0</supportAngles>
   <temperatureController name="Primary Extruder">
     <temperatureNumber>0</temperatureNumber>
@@ -104,10 +104,10 @@
     <isHeatedBed>0</isHeatedBed>
     <stabilizeAtStartup>0</stabilizeAtStartup>
     <setpoint layer="1" temperature="185"/>
-  </temperatureController>  
+  </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
-    <setpoint layer="2" speed="66"/>
+    <setpoint layer="2" speed="50"/>
     <setpoint layer="3" speed="100"/>
   </fanSpeed>
   <blipFanToFullPower>1</blipFanToFullPower>
@@ -149,11 +149,11 @@
   <GPXconfigOverride>r2</GPXconfigOverride>
   <baudRateOverride>250000</baudRateOverride>
   <overridePrinterModels>1</overridePrinterModels>
-  <printerModelsOverride></printerModelsOverride>
+  <printerModelsOverride/>
   <startingGcode>M115 U3.5.1 ; tell printer latest fw version,M83  ; extruder relative mode,M104 S[extruder1_temperature]; set extruder low while bed warms up,M190 S[bed0_temperature] ; wait for bed temp,M104 S[extruder0_temperature] ; set extruder temp,G28 W ; home all without mesh bed level,G80 ; mesh bed leveling,; M109 S[extruder0_temperature] ; wait for extruder temp,G1 Y-3.0 F1000.0 ; go outside print area,G92 E0.0,G1 X60.0 E9.0  F1000.0 ; intro line,G1 X100.0 E12.5  F1000.0 ; intro line,G92 E0.0,M117 Printing...</startingGcode>
-  <layerChangeGcode></layerChangeGcode>
-  <retractionGcode></retractionGcode>
-  <toolChangeGcode></toolChangeGcode>
+  <layerChangeGcode/>
+  <retractionGcode/>
+  <toolChangeGcode/>
   <endingGcode>M104 S0 ; turn off temperature,M140 S0 ; turn off heatbed,M107 ; turn off fan,G1 X0 Y210; home X axis,M84 ; disable motors,M117 Print complete,</endingGcode>
   <exportFileFormat>gcode</exportFileFormat>
   <celebration>0</celebration>
@@ -183,7 +183,7 @@
   <diaphragmLayerInterval>20</diaphragmLayerInterval>
   <robustSlicing>1</robustSlicing>
   <mergeAllIntoSolid>0</mergeAllIntoSolid>
-  <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
+  <onlyRetractWhenCrossingOutline>0</onlyRetractWhenCrossingOutline>
   <retractBetweenLayers>0</retractBetweenLayers>
   <useRetractionMinTravel>1</useRetractionMinTravel>
   <retractionMinTravel>3</retractionMinTravel>
@@ -256,7 +256,6 @@
       <isHeatedBed>0</isHeatedBed>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="250"/>
-      <setpoint layer="2" temperature="245"/>
     </temperatureController>
     <temperatureController name="Idle Extruder">
       <temperatureNumber>1</temperatureNumber>
@@ -272,7 +271,7 @@
     </temperatureController>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="66"/>
+      <setpoint layer="2" speed="50"/>
       <setpoint layer="3" speed="100"/>
     </fanSpeed>
   </autoConfigureMaterial>
@@ -328,31 +327,71 @@
       <isHeatedBed>0</isHeatedBed>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="245"/>
-      <setpoint layer="2" temperature="240"/>
     </temperatureController>
     <temperatureController name="Idle Extruder">
       <temperatureNumber>1</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <stabilizeAtStartup>0</stabilizeAtStartup>
-      <setpoint layer="1" temperature="190"/>
+      <setpoint layer="1" temperature="195"/>
     </temperatureController>
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>1</isHeatedBed>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="80"/>
+      <setpoint layer="1" temperature="85"/>
     </temperatureController>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="33"/>
-      <setpoint layer="3" speed="67"/>
-      <setpoint layer="4" speed="100"/>
+      <setpoint layer="2" speed="15"/>
+      <setpoint layer="3" speed="30"/>
+      <setpoint layer="4" speed="50"/>
     </fanSpeed>
   </autoConfigureMaterial>
+  <autoConfigureMaterial name="Nylon">
+    <filamentPricesPerKg>40|40|40|40|40|40</filamentPricesPerKg>
+    <filamentDensities>1.15|1.15|1.15|1.15|1.15|1.15</filamentDensities>
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>0.8</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.6</retractionZLift>
+      <retractionSpeed>2100</retractionSpeed>
+    </extruder>
+    <temperatureController name="Primary Extruder">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="260"/>
+      <setpoint layer="2" temperature="255"/>
+    </temperatureController>
+    <temperatureController name="Idle Extruder">
+      <temperatureNumber>1</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <stabilizeAtStartup>0</stabilizeAtStartup>
+      <setpoint layer="1" temperature="200"/>
+    </temperatureController>
+    <temperatureController name="Heated Bed">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>1</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="45"/>
+    </temperatureController>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureQuality name="Draft">
+    <defaultSpeed>4800</defaultSpeed>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
+  </autoConfigureQuality>
   <autoConfigureQuality name="Normal">
     <defaultSpeed>3600</defaultSpeed>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
   </autoConfigureQuality>
   <autoConfigureQuality name="Quality">
     <defaultSpeed>2400</defaultSpeed>
+    <firstLayerUnderspeed>0.33</firstLayerUnderspeed>  
   </autoConfigureQuality>
 </profile>
