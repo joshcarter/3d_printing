@@ -96,3 +96,50 @@ Testing fuzzy skin mode with parameters: 0.2 thickness, 1.25 density,
 Fuzzy skin mode with ABS, same parameters as #21. Surface looks about
 the same.
 
+## 23 Prusa, Simplify3D, Maker Geeks Raptor PLA
+
+Transitional roll, translucent blue. Extruder jam near top; need to
+print hotter than usual temp.
+
+## 24 Prusa, Simplify3D, Maker Geeks PLA
+
+Transitional roll, light blue. Ran at 230C (20C over usual) with
+excellent performance.
+
+## 25 Prusa, S3D, Maker Geeks Crystal PETG
+
+Transitional roll, translucent dark blue. Honeycomb infill. Ran at
+255C (15C over usual). Light stringing but otherwise clean print.
+
+## 26 Prusa, S3D, Maker Geeks Crystal PETG
+
+Clear transitional roll. Printed at same settings as #25 (extruder at
+255C). Noted black crud captured in print in places. Appears to
+collect some PETG at the nozzle and burn it, then drop it in the
+print. Otherwise good quality and surface finish.
+
+## 27 Prusa, Cura, 3D Solutech ABS
+
+Purple ABS. Bad distortion on front of hull.
+
+## 28 Prusa, S3D, 3D Solutech ABS
+
+Purple ABS. Also noted distortion on front of hull, but not nearly as
+bad as with Cura. Cooling effect possibly?
+
+## 29 Prusa, S3D, BuMat ABS
+
+Black ABS. Minor distortion at front of hull, like #28.
+
+## 30 Prusa, S3D, 3D Solutech ABS
+
+White ABS.
+
+## 31 Prusa, S3D, Maker Geeks PETG
+
+Clear PETG from "grab bag" roll. 255C/80C. Printed in photo booth.
+
+
+
+
+
