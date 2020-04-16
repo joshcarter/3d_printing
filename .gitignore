@@ -1,2 +1,4 @@
-*/.DS_Store
+**/.DS_Store
 prusaslicer_settings/snapshots
+prusaslicer_settings/cache
+prusaslicer_settings/vendor
