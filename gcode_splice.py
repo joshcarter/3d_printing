@@ -67,6 +67,7 @@ with open(args.files[1], 'r') as fh2:
                     out.write(f'M104 S{(extruder_temp_file1 + extruder_temp_file2) // 2} ; extruder temp for filament change\n')
                 out.write('M107 ; fan off\n')
                 out.write('M600 ; filament change\n')
+                out.write('G92 E0 ; reset extrusion distance\n')
                 out.write(f'M104 S{extruder_temp_file2} ; extruder temp for 2nd filament\n')
                 if fan_speed_file2 > 0:
                     out.write(f'M106 S{fan_speed_file2} ; fan for 2nd filament\n')
