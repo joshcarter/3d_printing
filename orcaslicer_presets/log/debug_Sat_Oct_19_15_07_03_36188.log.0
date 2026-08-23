@@ -1,0 +1,10 @@
+[error]	2024-10-19 15:07:04.095293[Thread 0x00000001f1c8cf40]:3dx drivers module loading error: dlopen(/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient, 0x0005): tried: '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file)
+[error]	2024-10-19 15:07:04.498537[Thread 0x00000001f1c8cf40]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-10-19 15:07:04.503195[Thread 0x00000001f1c8cf40]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Gridfinity ammo trays/Ammo tray [grid, 9mm, qty 30].stl
+[error]	2024-10-19 15:07:06.426713[Thread 0x00000001f1c8cf40]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2024-10-19 15:07:06.459960[Thread 0x00000001f1c8cf40]:get_version, get_version not supported,return 00.00.00.00!
+[error]	2024-10-19 15:07:09.183071[Thread 0x00000001f1c8cf40]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-10-19 15:07:15.173272[Thread 0x00000001f1c8cf40]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Dremel.json got exception: [json.exception.type_error.304] cannot use at() with string
+[error]	2024-10-19 15:07:15.471074[Thread 0x00000001f1c8cf40]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Creality.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-10-19 15:07:15.525982[Thread 0x00000001f1c8cf40]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Kingroon.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-10-23 17:12:19.749302[Thread 0x00000001f1c8cf40]:calc_exclude_triangles:Unable to create exclude triangles

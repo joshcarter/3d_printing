@@ -1,0 +1,15 @@
+{
+    "bed_custom_model": "/Users/josh/Projects/vendor/LDOVoron2/Slicer/PlateModels/Voron_350_Build_Plate.stl",
+    "best_object_pos": "175,175",
+    "from": "User",
+    "inherits": "Voron 2.4 350 0.6 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": "SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}\n",
+    "machine_end_gcode": "print_end\n; total layers count = [total_layer_count]\n",
+    "machine_start_gcode": "SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nM104 S0 ; Stops PrusaSlicer from sending temp waits separately\nM140 S0\nprint_start EXTRUDER=[first_layer_temperature[initial_extruder]] BED=[first_layer_bed_temperature]\n",
+    "name": "Voron 350 - 0.6mm",
+    "nozzle_type": "hardened_steel",
+    "printable_height": "350",
+    "printer_settings_id": "Voron 350 - 0.6mm",
+    "version": "2.2.0.4"
+}

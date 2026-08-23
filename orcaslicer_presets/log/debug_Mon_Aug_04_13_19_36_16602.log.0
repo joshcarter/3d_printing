@@ -1,0 +1,93 @@
+[error]	2025-08-04 13:19:36.956859[Thread 0x000000020b591f00]:3dx drivers module loading error: dlopen(/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient, 0x0005): tried: '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file)
+[error]	2025-08-04 13:19:37.372232[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2025-08-04 13:19:37.377735[Thread 0x0000000170a57000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Gridfinity ammo trays/Ammo tray [grid, 9mm, qty 30].stl
+[error]	2025-08-04 13:19:39.016849[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2025-08-04 13:19:39.044542[Thread 0x000000020b591f00]:get_version, get_version not supported,return 00.00.00.00!
+[error]	2025-08-04 13:19:44.083270[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2025-08-04 13:21:16.659365[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_abs for Chuanying Generic ABS
+[error]	2025-08-04 13:21:16.659395[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Chuanying/filament/Chuanying Generic ABS.json
+[error]	2025-08-04 13:21:16.679942[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_common for fdm_filament_peek
+[error]	2025-08-04 13:21:16.679959[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/MagicMaker/filament/fdm_filament_peek.json
+[error]	2025-08-04 13:21:16.700251[Thread 0x000000020b591f00]:operator(): can not find inherits Generic ABS @System for Lulzbot 2.85mm ABS
+[error]	2025-08-04 13:21:16.700266[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Lulzbot/filament/Lulzbot 2.85mm ABS.json
+[error]	2025-08-04 13:21:16.907795[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_abs for Z-Bolt ABS @base
+[error]	2025-08-04 13:21:16.907811[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Z-Bolt/filament/Z-Bolt ABS @base.json
+[error]	2025-08-04 13:21:17.038044[Thread 0x000000020b591f00]:operator(): can not find inherits AliZ PA-CF @base for AliZ PA-CF @P1-X1
+[error]	2025-08-04 13:21:17.038058[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/BBL/filament/AliZ/AliZ PA-CF @P1-X1.json
+[error]	2025-08-04 13:21:17.048038[Thread 0x000000020b591f00]:operator(): can not find inherits Generic PLA @System for Generic PLA @MyToolChanger
+[error]	2025-08-04 13:21:17.048055[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Custom/filament/Generic PLA @MyToolChanger.json
+[error]	2025-08-04 13:21:17.052120[Thread 0x000000020b591f00]:operator(): can not find inherits Generic ABS @System for Sovol SV06 ACE ABS
+[error]	2025-08-04 13:21:17.052125[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Sovol/filament/Sovol SV06 ACE ABS.json
+[error]	2025-08-04 13:21:17.145116[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_tpu for TwoTrees Generic 95A TPU @SK1
+[error]	2025-08-04 13:21:17.145129[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/TwoTrees/filament/TwoTrees Generic 95A TPU @SK1.json
+[error]	2025-08-04 13:21:17.149575[Thread 0x000000020b591f00]:operator(): can not find inherits PolyTerra PLA @base for PolyTerra PLA @0.2 nozzle
+[error]	2025-08-04 13:21:17.149582[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Snapmaker/filament/PolyTerra PLA @0.2 nozzle.json
+[error]	2025-08-04 13:21:17.243736[Thread 0x000000020b591f00]:can not find parent for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/process/Normal @Voron.json!
+[error]	2025-08-04 13:21:17.244835[Thread 0x000000020b591f00]:can not find parent for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/machine/Voron 350 - 0.6mm.json!
+[error]	2025-08-04 13:21:17.298927[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_abs for Chuanying Generic ABS
+[error]	2025-08-04 13:21:17.298940[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Chuanying/filament/Chuanying Generic ABS.json
+[error]	2025-08-04 13:21:17.313747[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_common for fdm_filament_peek
+[error]	2025-08-04 13:21:17.313757[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/MagicMaker/filament/fdm_filament_peek.json
+[error]	2025-08-04 13:21:17.327452[Thread 0x000000020b591f00]:operator(): can not find inherits Generic ABS @System for Lulzbot 2.85mm ABS
+[error]	2025-08-04 13:21:17.327462[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Lulzbot/filament/Lulzbot 2.85mm ABS.json
+[error]	2025-08-04 13:21:17.455903[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_abs for Z-Bolt ABS @base
+[error]	2025-08-04 13:21:17.455913[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Z-Bolt/filament/Z-Bolt ABS @base.json
+[error]	2025-08-04 13:21:17.516163[Thread 0x000000020b591f00]:operator(): can not find inherits AliZ PA-CF @base for AliZ PA-CF @P1-X1
+[error]	2025-08-04 13:21:17.516175[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/BBL/filament/AliZ/AliZ PA-CF @P1-X1.json
+[error]	2025-08-04 13:21:17.525737[Thread 0x000000020b591f00]:operator(): can not find inherits Generic PLA @System for Generic PLA @MyToolChanger
+[error]	2025-08-04 13:21:17.525746[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Custom/filament/Generic PLA @MyToolChanger.json
+[error]	2025-08-04 13:21:17.529032[Thread 0x000000020b591f00]:operator(): can not find inherits Generic ABS @System for Sovol SV06 ACE ABS
+[error]	2025-08-04 13:21:17.529036[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Sovol/filament/Sovol SV06 ACE ABS.json
+[error]	2025-08-04 13:21:17.592731[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_tpu for TwoTrees Generic 95A TPU @SK1
+[error]	2025-08-04 13:21:17.592745[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/TwoTrees/filament/TwoTrees Generic 95A TPU @SK1.json
+[error]	2025-08-04 13:21:17.596765[Thread 0x000000020b591f00]:operator(): can not find inherits PolyTerra PLA @base for PolyTerra PLA @0.2 nozzle
+[error]	2025-08-04 13:21:17.596780[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Snapmaker/filament/PolyTerra PLA @0.2 nozzle.json
+[error]	2025-08-04 13:21:17.652330[Thread 0x000000020b591f00]:can not find parent for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/process/Normal @Voron.json!
+[error]	2025-08-04 13:21:17.652730[Thread 0x000000020b591f00]:can not find parent for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/machine/Voron 350 - 0.6mm.json!
+[error]	2025-08-04 13:21:17.708692[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_abs for Chuanying Generic ABS
+[error]	2025-08-04 13:21:17.708707[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Chuanying/filament/Chuanying Generic ABS.json
+[error]	2025-08-04 13:21:17.721928[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_common for fdm_filament_peek
+[error]	2025-08-04 13:21:17.721941[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/MagicMaker/filament/fdm_filament_peek.json
+[error]	2025-08-04 13:21:17.735769[Thread 0x000000020b591f00]:operator(): can not find inherits Generic ABS @System for Lulzbot 2.85mm ABS
+[error]	2025-08-04 13:21:17.735783[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Lulzbot/filament/Lulzbot 2.85mm ABS.json
+[error]	2025-08-04 13:21:17.865337[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_abs for Z-Bolt ABS @base
+[error]	2025-08-04 13:21:17.865350[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Z-Bolt/filament/Z-Bolt ABS @base.json
+[error]	2025-08-04 13:21:17.925319[Thread 0x000000020b591f00]:operator(): can not find inherits AliZ PA-CF @base for AliZ PA-CF @P1-X1
+[error]	2025-08-04 13:21:17.925329[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/BBL/filament/AliZ/AliZ PA-CF @P1-X1.json
+[error]	2025-08-04 13:21:17.935336[Thread 0x000000020b591f00]:operator(): can not find inherits Generic PLA @System for Generic PLA @MyToolChanger
+[error]	2025-08-04 13:21:17.935347[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Custom/filament/Generic PLA @MyToolChanger.json
+[error]	2025-08-04 13:21:17.938926[Thread 0x000000020b591f00]:operator(): can not find inherits Generic ABS @System for Sovol SV06 ACE ABS
+[error]	2025-08-04 13:21:17.938936[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Sovol/filament/Sovol SV06 ACE ABS.json
+[error]	2025-08-04 13:21:18.002556[Thread 0x000000020b591f00]:operator(): can not find inherits fdm_filament_tpu for TwoTrees Generic 95A TPU @SK1
+[error]	2025-08-04 13:21:18.002569[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/TwoTrees/filament/TwoTrees Generic 95A TPU @SK1.json
+[error]	2025-08-04 13:21:18.006229[Thread 0x000000020b591f00]:operator(): can not find inherits PolyTerra PLA @base for PolyTerra PLA @0.2 nozzle
+[error]	2025-08-04 13:21:18.006232[Thread 0x000000020b591f00]:load_vendor_configs_from_json, got error when parse filament setting from /Applications/OrcaSlicer.app/Contents/Resources/profiles/Snapmaker/filament/PolyTerra PLA @0.2 nozzle.json
+[error]	2025-08-04 13:21:18.059236[Thread 0x000000020b591f00]:can not find parent for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/process/Normal @Voron.json!
+[error]	2025-08-04 13:21:18.059561[Thread 0x000000020b591f00]:can not find parent for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/machine/Voron 350 - 0.6mm.json!
+[warning]	2025-08-04 13:21:18.077979[Thread 0x000000020b591f00]:save_current_preset: save preset Prusa Prusa XL 5T 0.4 nozzle , with detach
+[error]	2025-08-04 13:21:18.129381[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2025-08-04 13:22:56.806103[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2025-08-04 13:23:40.839334[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:24:19.754995[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:24:20.913433[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:24:30.719649[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:24:32.760644[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:24:49.051472[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:24:49.878895[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:25:02.600865[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:25:07.610204[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:25:22.683288[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:25:25.192411[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:25:58.604459[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:26:00.182573[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:26:12.664570[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:26:12.723368[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:26:23.628089[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:26:23.690298[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:26:24.234538[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:26:43.244775[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:27:00.860840[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:27:40.368079[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:27:44.246343[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:32:12.766893[Thread 0x000000020b591f00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2025-08-04 13:35:59.553147[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles

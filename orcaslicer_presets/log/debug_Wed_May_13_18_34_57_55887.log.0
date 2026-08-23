@@ -1,0 +1,29 @@
+[info]	2026-05-13 18:34:57.034313[Thread 0x00000001ee9798c0]:gui mode, Current OrcaSlicer Version 2.3.2 build c724a3f5
+[error]	2026-05-13 18:34:57.715193[Thread 0x00000001ee9798c0]:3dx drivers module loading error: dlopen(/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient, 0x0005): tried: '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file)
+[warning]	2026-05-13 18:34:57.905391[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-05-13 18:34:58.250912[Thread 0x00000001ee9798c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-05-13 18:34:58.255087[Thread 0x00000001ee9798c0]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Tensile testing/Tensile test parts - XL5 orca.3mf
+[error]	2026-05-13 18:34:58.255114[Thread 0x00000001ee9798c0]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Tensile testing/Tensile test parts.3mf
+[error]	2026-05-13 18:34:58.255113[Thread 0x0000000170cdb000]:Unable to open the file/Users/josh/Projects/vendor/Voron-Stealthburner/STLs/Stealthburner/Stealthburner - V60.3mf
+[error]	2026-05-13 18:34:58.312486[Thread 0x00000001710e7000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Gridfinity ammo trays/Ammo tray [grid, 9mm, qty 30].stl
+[warning]	2026-05-13 18:34:58.433128[Thread 0x00000001ee9798c0]:06:34:58 PM: Error: can't open file '/Applications/OrcaSlicer.app/Contents/Resources/images/printer_preview_Voron2_350.png' (error 2: No such file or directory)
+[warning]	2026-05-13 18:34:58.433198[Thread 0x00000001ee9798c0]:06:34:58 PM: Error: Failed to load image from file "/Applications/OrcaSlicer.app/Contents/Resources/images/printer_preview_Voron2_350.png".
+[error]	2026-05-13 18:34:58.433208[Thread 0x00000001ee9798c0]:create_scaled_bitmapCould not load bitmap: printer_preview_Voron2_350
+[error]	2026-05-13 18:34:58.437828[Thread 0x00000001ee9798c0]:_parse_printer_type Unsupported printer type: Voron 2.4 350
+[error]	2026-05-13 18:34:59.650170[Thread 0x00000001ee9798c0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-05-13 18:34:59.674775[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:34:59.681751[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:01.682232[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:03.682746[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-05-13 18:35:04.528253[Thread 0x00000001ee9798c0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-05-13 18:35:05.682101[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:07.681544[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:09.682126[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:11.682011[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:13.682003[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:15.682006[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:17.681995[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:19.681949[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:21.681901[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-05-13 18:35:23.681816[Thread 0x00000001ee9798c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-05-13 18:35:25.141091[Thread 0x00000001ee9798c0]:calc_exclude_triangles:Unable to create exclude triangles

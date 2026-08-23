@@ -1,0 +1,6 @@
+[error]	2025-08-04 13:06:33.360672[Thread 0x000000020b591f00]:3dx drivers module loading error: dlopen(/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient, 0x0005): tried: '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file)
+[error]	2025-08-04 13:06:33.780494[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2025-08-04 13:06:33.786307[Thread 0x0000000178c1f000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Gridfinity ammo trays/Ammo tray [grid, 9mm, qty 30].stl
+[error]	2025-08-04 13:06:35.473891[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2025-08-04 13:06:35.496396[Thread 0x000000020b591f00]:get_version, get_version not supported,return 00.00.00.00!
+[error]	2025-08-04 13:08:26.304162[Thread 0x000000020b591f00]:calc_exclude_triangles:Unable to create exclude triangles

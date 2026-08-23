@@ -1,0 +1,24 @@
+{
+    "filament_cost": [
+        "50"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "PETG-CF @Voron"
+    ],
+    "filament_vendor": [
+        "Atomic Filament"
+    ],
+    "from": "User",
+    "inherits": "PETG @Voron",
+    "name": "PETG-CF @Voron",
+    "nozzle_temperature": [
+        "255"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "version": "2.1.1.0"
+}

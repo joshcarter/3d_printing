@@ -1,0 +1,20 @@
+[warning]	2024-09-25 22:05:20.647838[Thread 0x00000001f1b70c00]:Failed to load to hints.cereal. File does not exists. /Users/josh/Library/Application Support/OrcaSlicer/user/hints.cereal
+[error]	2024-09-25 22:05:20.895129[Thread 0x00000001f1b70c00]:3dx drivers module loading error: dlopen(/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient, 0x0005): tried: '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file)
+[error]	2024-09-25 22:05:21.301728[Thread 0x00000001f1b70c00]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-09-25 22:05:22.765665[Thread 0x00000001f1b70c00]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-09-25 22:05:22.863838[Thread 0x00000001f1b70c00]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Dremel.json got exception: [json.exception.type_error.304] cannot use at() with string
+[error]	2024-09-25 22:05:23.002062[Thread 0x00000001f1b70c00]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Creality.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-09-25 22:05:23.029778[Thread 0x00000001f1b70c00]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Kingroon.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-09-25 22:06:27.155931[Thread 0x00000001f1b70c00]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2024-09-25 22:06:27.164473[Thread 0x00000001f1b70c00]:get_version, get_version not supported,return 00.00.00.00!
+[error]	2024-09-25 22:06:38.821787[Thread 0x00000001f1b70c00]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-09-25 22:07:15.424844[Thread 0x00000001f1b70c00]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Gridfinity ammo trays/Ammo tray [grid, 9mm, qty 30].stl
+[error]	2024-09-25 22:07:46.103075[Thread 0x00000001f1b70c00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-09-25 22:07:47.842449[Thread 0x00000001f1b70c00]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-09-25 22:11:55.343813[Thread 0x00000001f1b70c00]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Dremel.json got exception: [json.exception.type_error.304] cannot use at() with string
+[error]	2024-09-25 22:11:55.576290[Thread 0x00000001f1b70c00]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Creality.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-09-25 22:11:55.621135[Thread 0x00000001f1b70c00]:LoadProfileFamily: parse /Applications/OrcaSlicer.app/Contents/Resources/profiles/Kingroon.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-09-25 22:20:16.228978[Thread 0x000000041aab7000]:Failed to apply the print statistics to the export file name: Parsing error at line 1. Expecting tag literal-char
+Ammo tray [grid, 9mm, qty 30] OrcaSlicer
+               ^
+[error]	2024-09-28 12:24:08.773825[Thread 0x00000001f1b70c00]:calc_exclude_triangles:Unable to create exclude triangles
