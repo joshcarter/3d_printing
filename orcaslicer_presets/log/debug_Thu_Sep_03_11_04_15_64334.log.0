@@ -1,0 +1,33 @@
+[info]	2026-09-03 11:04:15.611470[Thread 0x00000001f43298c0]:gui mode, Current OrcaSlicer Version 2.4.2 build 8500fcdc
+[error]	2026-09-03 11:04:16.266300[Thread 0x00000001f43298c0]:can not find parent PETG @Voron for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/filament/PETG-CF @Voron.json!
+[error]	2026-09-03 11:04:16.572204[Thread 0x00000001f43298c0]:3dx drivers module loading error: dlopen(/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient, 0x0005): tried: '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file)
+[warning]	2026-09-03 11:04:16.752302[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-09-03 11:04:17.121713[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:04:17.123416[Thread 0x0000000171b0f000]:Unable to open the file/Users/josh/Projects/vendor/Voron-Stealthburner/STLs/Stealthburner/Stealthburner - V60.3mf
+[error]	2026-09-03 11:04:17.123734[Thread 0x00000001702c7000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Tensile testing/Tensile test parts.3mf
+[error]	2026-09-03 11:04:17.123741[Thread 0x0000000170adf000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Tensile testing/Tensile test parts - XL5 orca.3mf
+[error]	2026-09-03 11:04:17.178704[Thread 0x00000001712f7000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Gridfinity ammo trays/Ammo tray [grid, 9mm, qty 30].stl
+[warning]	2026-09-03 11:04:18.059654[Thread 0x00000001f43298c0]:Found Framebuffer Type unknown!
+[error]	2026-09-03 11:04:18.595089[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-09-03 11:04:18.629764[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-09-03 11:05:11.049123[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:05:19.665744[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:05:34.339628[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:06:22.337249[Thread 0x00000001f43298c0]:can not find parent PETG @Voron for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/filament/PETG-CF @Voron.json!
+[error]	2026-09-03 11:06:43.584605[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:07:45.211357[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:07:45.398569[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:07:45.412726[Thread 0x00000001f43298c0]:can not find parent for config /var/folders/cp/r7hnp9tx7xsgvhn9sv32wthr0000gn/T/orcaslicer_model/Thu_Sep_03/11_07_45#64334#501/_temp_2.config!
+[error]	2026-09-03 11:07:45.412781[Thread 0x00000001f43298c0]:can not find parent for config /var/folders/cp/r7hnp9tx7xsgvhn9sv32wthr0000gn/T/orcaslicer_model/Thu_Sep_03/11_07_45#64334#501/_temp_2.config!
+[error]	2026-09-03 11:07:45.412792[Thread 0x00000001f43298c0]:can not find parent for config /var/folders/cp/r7hnp9tx7xsgvhn9sv32wthr0000gn/T/orcaslicer_model/Thu_Sep_03/11_07_45#64334#501/_temp_2.config!
+[error]	2026-09-03 11:07:45.412802[Thread 0x00000001f43298c0]:can not find parent for config /var/folders/cp/r7hnp9tx7xsgvhn9sv32wthr0000gn/T/orcaslicer_model/Thu_Sep_03/11_07_45#64334#501/_temp_2.config!
+[error]	2026-09-03 11:07:45.412814[Thread 0x00000001f43298c0]:can not find parent for config /var/folders/cp/r7hnp9tx7xsgvhn9sv32wthr0000gn/T/orcaslicer_model/Thu_Sep_03/11_07_45#64334#501/_temp_2.config!
+[error]	2026-09-03 11:07:45.412824[Thread 0x00000001f43298c0]:can not find parent for config /var/folders/cp/r7hnp9tx7xsgvhn9sv32wthr0000gn/T/orcaslicer_model/Thu_Sep_03/11_07_45#64334#501/_temp_2.config!
+[warning]	2026-09-03 11:07:45.426821[Thread 0x00000001f43298c0]:validate_preset: preset_name Elegoo Centauri Carbon 0.4 nozzle, no inherit, set to not found
+[warning]	2026-09-03 11:07:45.426869[Thread 0x00000001f43298c0]:validate_presets:file_name Siraya Tech PET-CF 0.4mm ECC For Orca Slicer 20260305.3mf, found the printer preset not inherit from system
+[warning]	2026-09-03 11:07:45.426881[Thread 0x00000001f43298c0]:validate_presets:file_name Siraya Tech PET-CF 0.4mm ECC For Orca Slicer 20260305.3mf, found self defined presets, count 1
+[error]	2026-09-03 11:09:01.006175[Thread 0x00000001f43298c0]:can not find parent PETG @Voron for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/filament/PETG-CF @Voron.json!
+[error]	2026-09-03 11:09:01.039580[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:09:13.161216[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:09:15.514483[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:13:24.061934[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles

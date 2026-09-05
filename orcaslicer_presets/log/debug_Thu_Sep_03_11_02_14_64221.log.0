@@ -1,0 +1,17 @@
+[info]	2026-09-03 11:02:14.694130[Thread 0x00000001f43298c0]:gui mode, Current OrcaSlicer Version 2.3.2 build c724a3f5
+[error]	2026-09-03 11:02:15.131446[Thread 0x00000001f43298c0]:can not find parent PETG @Voron for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/filament/PETG-CF @Voron.json!
+[error]	2026-09-03 11:02:15.446134[Thread 0x00000001f43298c0]:3dx drivers module loading error: dlopen(/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient, 0x0005): tried: '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file)
+[warning]	2026-09-03 11:02:15.651874[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-09-03 11:02:15.998304[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 11:02:16.003225[Thread 0x000000016d2b7000]:Unable to open the file/Users/josh/Projects/vendor/Voron-Stealthburner/STLs/Stealthburner/Stealthburner - V60.3mf
+[error]	2026-09-03 11:02:16.003506[Thread 0x000000016ca9f000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Tensile testing/Tensile test parts - XL5 orca.3mf
+[error]	2026-09-03 11:02:16.003510[Thread 0x000000016d6c3000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Tensile testing/Tensile test parts.3mf
+[error]	2026-09-03 11:02:16.062844[Thread 0x000000016ceab000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Gridfinity ammo trays/Ammo tray [grid, 9mm, qty 30].stl
+[warning]	2026-09-03 11:02:16.188715[Thread 0x00000001f43298c0]:11:02:16 AM: Error: can't open file '/Applications/OrcaSlicer.app/Contents/Resources/images/printer_preview_.png' (error 2: No such file or directory)
+[warning]	2026-09-03 11:02:16.188787[Thread 0x00000001f43298c0]:11:02:16 AM: Error: Failed to load image from file "/Applications/OrcaSlicer.app/Contents/Resources/images/printer_preview_.png".
+[error]	2026-09-03 11:02:16.188797[Thread 0x00000001f43298c0]:create_scaled_bitmapCould not load bitmap: printer_preview_
+[warning]	2026-09-03 11:02:16.793209[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-09-03 11:02:17.431913[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-09-03 11:02:17.459764[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 11:02:18.771325[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-09-03 11:02:20.247559[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles

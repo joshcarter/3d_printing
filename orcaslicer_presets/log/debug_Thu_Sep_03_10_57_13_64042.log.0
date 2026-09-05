@@ -1,0 +1,34 @@
+[info]	2026-09-03 10:57:13.411312[Thread 0x00000001f43298c0]:gui mode, Current OrcaSlicer Version 2.3.2 build c724a3f5
+[error]	2026-09-03 10:57:13.887162[Thread 0x00000001f43298c0]:can not find parent PETG @Voron for config /Users/josh/Library/Application Support/OrcaSlicer/user/default/filament/PETG-CF @Voron.json!
+[error]	2026-09-03 10:57:14.271507[Thread 0x00000001f43298c0]:3dx drivers module loading error: dlopen(/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient, 0x0005): tried: '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file), '/Library/Frameworks/3DconnexionClient.framework/3DconnexionClient' (no such file)
+[warning]	2026-09-03 10:57:14.476287[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-09-03 10:57:14.820097[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2026-09-03 10:57:14.825237[Thread 0x000000016f797000]:Unable to open the file/Users/josh/Projects/vendor/Voron-Stealthburner/STLs/Stealthburner/Stealthburner - V60.3mf
+[error]	2026-09-03 10:57:14.825369[Thread 0x000000016f38b000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Tensile testing/Tensile test parts.3mf
+[error]	2026-09-03 10:57:14.825373[Thread 0x000000016df4f000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Tensile testing/Tensile test parts - XL5 orca.3mf
+[error]	2026-09-03 10:57:14.873253[Thread 0x000000016eb73000]:Unable to open the file/Users/josh/Dropbox/CAD/STL/Gridfinity ammo trays/Ammo tray [grid, 9mm, qty 30].stl
+[warning]	2026-09-03 10:57:14.995728[Thread 0x00000001f43298c0]:10:57:14 AM: Error: can't open file '/Applications/OrcaSlicer.app/Contents/Resources/images/printer_preview_.png' (error 2: No such file or directory)
+[warning]	2026-09-03 10:57:14.995791[Thread 0x00000001f43298c0]:10:57:14 AM: Error: Failed to load image from file "/Applications/OrcaSlicer.app/Contents/Resources/images/printer_preview_.png".
+[error]	2026-09-03 10:57:14.995801[Thread 0x00000001f43298c0]:create_scaled_bitmapCould not load bitmap: printer_preview_
+[warning]	2026-09-03 10:57:15.674206[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-09-03 10:57:16.291333[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-09-03 10:57:16.320195[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:17.649828[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:19.650238[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:21.650168[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:23.650188[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:25.649975[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:27.649936[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:29.649710[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:31.649194[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:33.650025[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:35.649674[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:37.650022[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:39.649977[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:41.649229[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:43.649999[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:45.649900[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:47.649468[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[warning]	2026-09-03 10:57:49.649836[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
+[error]	2026-09-03 10:57:51.592901[Thread 0x00000001f43298c0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-09-03 10:57:51.659451[Thread 0x00000001f43298c0]:get_version, get_version not supported, return 00.00.00.00!
