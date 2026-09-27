@@ -39,11 +39,14 @@
   CF/GF filament is assigned to before slicing.
 
 ## Filament/printer restrictions
-- **PET-CF is Voron-only.** It needs 300C+ and an abrasive-safe nozzle; the
-  Voron's Rapido 2 + Diamondback is the only setup here that has both. Do not
-  create PET-CF profiles for the Mk3 or XL -- earlier ones were deleted because
-  they were PETG-CF copies with the temperature raised, which is wrong on both
-  cooling and flow.
+- **PET-CF is best on the Voron** (Rapido 2 + Diamondback, calibrated at 305C).
+  `PET-CF @XL` also exists as a compromise: ObXidian heads only, capped at
+  285-290C (the low end of the vendor range), so expect weaker layers and lower
+  flow. It was derived from the Voron PET-CF preset (fan off, cooling) with XL
+  tool-change settings. Never make a PET-CF preset by copying PETG-CF and
+  raising the temperature -- earlier Mk3/XL ones were deleted for exactly that,
+  since it's wrong on both cooling and flow. No PET-CF on the Mk3 (no
+  abrasive-safe nozzle).
 - Siraya Tech Fibreheart PET-CF spec: 280-320C nozzle, 60-80C bed, cooling fan
   OFF, max volumetric 20 mm3/s at 320C (that figure assumes a large nozzle;
   expect 10-14 through a 0.4mm).
