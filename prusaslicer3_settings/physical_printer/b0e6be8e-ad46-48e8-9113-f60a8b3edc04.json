@@ -1,0 +1,141 @@
+{
+  "physical_printer_user_given_name": "XL",
+  "physical_printer_host": "prusa-xl.local",
+  "physical_printer_host_type": "prusalink",
+  "physical_printer_authorization_type": "key",
+  "physical_printer_api_key": "7HUjWp3KbZafeDM",
+  "physical_printer_user": "",
+  "physical_printer_password": "",
+  "physical_printer_port": "",
+  "physical_printer_ca_file": "",
+  "physical_printer_ssl_ignore_revoke": false,
+  "physical_printer_uuid": "b0e6be8e-ad46-48e8-9113-f60a8b3edc04",
+  "physical_printer_preset_model": "",
+  "physical_printer_preset_base_model": "",
+  "hw_config": {
+    "config_id": "c4a65d5c-042e-4afc-8c61-3f668c213189",
+    "printer_id": "xl",
+    "vendor_id": "PrusaResearch",
+    "repo_id": "prusa-research-fff",
+    "repo_version": "1.0.11",
+    "config_name": "Prusa XL 5T 0.4, 0.4, 0.4, 0.4, 0.4",
+    "config_short_name": "Prusa XL 5T 0.4, 0.4, 0.4, 0.4, 0.4",
+    "technology": "fff",
+    "model": "XL",
+    "base_model": "XL",
+    "tool_count": 5,
+    "features": {
+      "supports_tool_preheating": true,
+      "supports_non_high_flow_nozzle": true,
+      "supports_mmu_08_nozzle": false,
+      "supports_mmu_05_nozzle": false,
+      "supports_mmu_06_nozzle": false,
+      "supports_mmu_03_nozzle": false,
+      "supports_08_nozzle": true,
+      "supports_mmu_04_nozzle": false,
+      "supports_06_nozzle": true,
+      "supports_high_flow_nozzle": true,
+      "supports_04_nozzle": true,
+      "supports_03_nozzle": true,
+      "supports_mmu_025_nozzle": false,
+      "supports_025_nozzle": true,
+      "multi_extruder": true,
+      "input_shaper": true,
+      "auxiliary_travel_anchor_x": 0.5,
+      "planetary_gearbox": true,
+      "supports_05_nozzle": true,
+      "auxiliary_travel_anchor_y": 1.0,
+      "bed_segments_x": 4.0,
+      "bed_segments_y": 4.0
+    },
+    "tools": {
+      "0": {
+        "type": "print_head",
+        "id": "0.4",
+        "name": "0.4",
+        "features": {
+          "nozzle_diameter": 0.4,
+          "nozzle_high_flow": false
+        },
+        "slicer_material": {
+          "id": "05b9092a-a027-42ca-96f0-d6c2c996b711",
+          "type": "PLA",
+          "features": {}
+        },
+        "material_package_instance": {}
+      },
+      "1": {
+        "type": "print_head",
+        "id": "0.4",
+        "name": "0.4",
+        "features": {
+          "nozzle_diameter": 0.4,
+          "nozzle_high_flow": false
+        },
+        "slicer_material": {
+          "id": "7b66eece-25a9-491b-8c73-2689caeec6a3",
+          "type": "PLA",
+          "features": {}
+        },
+        "material_package_instance": {}
+      },
+      "2": {
+        "type": "print_head",
+        "id": "0.4",
+        "name": "0.4",
+        "features": {
+          "nozzle_diameter": 0.4,
+          "nozzle_high_flow": false
+        },
+        "slicer_material": {
+          "id": "8aa247bb-594b-421f-bb51-3c050d1deb8e",
+          "type": "PLA",
+          "features": {}
+        },
+        "material_package_instance": {}
+      },
+      "3": {
+        "type": "print_head",
+        "id": "0.4",
+        "name": "0.4",
+        "features": {
+          "nozzle_diameter": 0.4,
+          "nozzle_high_flow": false
+        },
+        "slicer_material": {
+          "id": "f97e4f5f-a792-4c1b-8806-4e3d8880da04",
+          "type": "PLA",
+          "features": {}
+        },
+        "material_package_instance": {}
+      },
+      "4": {
+        "type": "print_head",
+        "id": "0.4",
+        "name": "0.4",
+        "features": {
+          "nozzle_diameter": 0.4,
+          "nozzle_high_flow": false
+        },
+        "slicer_material": {
+          "id": "da458db3-cdc4-4383-8adf-236d8d7af503",
+          "type": "PLA",
+          "features": {}
+        },
+        "material_package_instance": {}
+      }
+    },
+    "sheet": {
+      "id": "satin",
+      "name": "Satin",
+      "type": "satin",
+      "features": {
+        "cold": false
+      }
+    },
+    "legacy_printer_model": "XL5IS",
+    "bed_model": "xl_bed.stl",
+    "bed_texture": "xl.svg",
+    "thumbnail": "XL5_thumbnail.svg"
+  }
+}

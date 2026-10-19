@@ -1,0 +1,6 @@
+kind: tool_print
+id: 'umne/rRIRHqOkaZ9AzYKeA'
+variants:
+- condition: printer.base_model == "VORON"
+  id: 'GCBXjoH6THWQfJGTSrWtYg'
+  name: no tool

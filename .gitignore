@@ -4,3 +4,5 @@ prusaslicer_settings/cache
 prusaslicer_settings/vendor
 prusaslicer_settings/PrusaSlicer.ini
 orcaslicer_presets/log
+prusaslicer3_settings/cache
+prusaslicer3_settings/snapshots

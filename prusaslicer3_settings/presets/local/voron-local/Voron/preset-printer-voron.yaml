@@ -1,0 +1,50 @@
+kind: printer
+id: 'BbFqyaL8ROqw4WJdYDPskA'
+variants:
+- condition: printer.base_model == "VORON"
+  id: 'gqmqvLvPR9uwwI5S5fE9SQ'
+  name: Voron 2.4 350
+  values:
+    printer_technology: FFF
+    gcode_flavor: klipper
+    bed_shape: ['0x0', '350x0', '350x350', '0x350']
+    max_print_height: 310
+    extruder_offset: ['0x0']
+    use_relative_e_distances: 1
+    use_firmware_retraction: 0
+    machine_limits_usage: time_estimate_only
+    machine_max_acceleration_e: [10000.0, 5000.0]
+    machine_max_acceleration_extruding: [4000.0, 4000.0]
+    machine_max_acceleration_retracting: [4000.0, 4000.0]
+    machine_max_acceleration_travel: [4000.0, 4000.0]
+    machine_max_acceleration_x: [4000.0, 4000.0]
+    machine_max_acceleration_y: [4000.0, 4000.0]
+    machine_max_acceleration_z: [350.0, 350.0]
+    machine_max_feedrate_e: [120.0, 120.0]
+    machine_max_feedrate_x: [300.0, 300.0]
+    machine_max_feedrate_y: [300.0, 300.0]
+    machine_max_feedrate_z: [25.0, 25.0]
+    machine_max_jerk_e: [2.5, 2.5]
+    machine_max_jerk_x: [10.0, 10.0]
+    machine_max_jerk_y: [10.0, 10.0]
+    machine_max_jerk_z: [0.2, 0.2]
+    machine_min_extruding_rate: [0.0, 0.0]
+    machine_min_travel_rate: [0.0, 0.0]
+    silent_mode: 0
+    binary_gcode: 0
+    thumbnails: [32x32/PNG, 400x300/PNG]
+    printer_notes: "PRINTER_VENDOR_VORON\nPRINTER_MODEL_VORON\n"
+    start_gcode: |-
+      SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
+      print_start EXTRUDER=[first_layer_temperature[initial_extruder]] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]
+    end_gcode: |-
+      print_end
+      ; total layers count = [total_layer_count]
+    layer_gcode: "SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}"
+  variants:
+  - condition: tool.nozzle_diameter == 0.4
+    id: '+qOLD0IuQVK5YlcTrRBp4A'
+    values: {}
+  - condition: tool.nozzle_diameter == 0.6
+    id: 'mpdQTXL1QKewC8uTzZFZwg'
+    values: {}

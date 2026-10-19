@@ -1,0 +1,96 @@
+kind: vendor
+id: Voron
+name: Voron (local)
+version: 0.0.1
+features:
+  printer:
+    supports_high_flow_nozzle:
+      default: false
+      user_editable: false
+    supports_non_high_flow_nozzle:
+      default: true
+      user_editable: false
+    supports_025_nozzle:
+      default: false
+    supports_03_nozzle:
+      default: false
+    supports_04_nozzle:
+      default: true
+    supports_05_nozzle:
+      default: false
+    supports_06_nozzle:
+      default: true
+    supports_08_nozzle:
+      default: false
+    multi_extruder:          # required even for single-tool printers in alpha12, else per-tool
+      default: true          # print values (retract_length, min/max_layer_height) are dropped
+      user_editable: false
+  tool:
+    nozzle_high_flow:
+      default: false
+    nozzle_diameter:
+      default: 0.4
+  sheet:
+    cold:
+      default: false
+printer_families:
+  - label: "Voron"
+    base_model: VORON
+    printer_configs_order:
+      - voron24-350
+      - voron24-350-06
+---
+kind: printer
+technology: FFF
+name: Voron 2.4 350
+id: voron24
+model:
+  base_model: VORON
+  model: VORON24_350
+tool_count: 1
+features:
+  supports_04_nozzle:
+    default: true
+  supports_06_nozzle:
+    default: true
+---
+kind: tool
+technology: FFF
+id: 'v0.4'
+name: '0.4'
+condition: printer.base_model == "VORON"
+features:
+  nozzle_diameter:
+    default: 0.4
+---
+kind: tool
+technology: FFF
+id: 'v0.6'
+name: '0.6'
+condition: printer.base_model == "VORON"
+features:
+  nozzle_diameter:
+    default: 0.6
+---
+kind: sheet
+id: voron_pei_textured
+name: PEI Textured
+type: pei_textured
+---
+kind: printer_config
+id: voron24-350
+name: Voron 2.4 350
+printer: voron24
+tool_count: 1
+tools:
+- tool: 'v0.4'
+sheet: voron_pei_textured
+---
+kind: printer_config
+id: voron24-350-06
+name: Voron 2.4 350 (0.6)
+printer: voron24
+tool_count: 1
+tools:
+- tool: 'v0.6'
+sheet: voron_pei_textured

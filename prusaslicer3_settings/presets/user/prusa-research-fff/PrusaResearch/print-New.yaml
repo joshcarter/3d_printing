@@ -1,0 +1,14 @@
+kind: print
+id: b1b23e4c-4ae8-47bf-a28f-150bce61a6cb
+variants:
+  - condition: ((((((printer.model == "XL") and (printer.tool_count > 1)) and (tool.nozzle_diameter == 0.4)) and not tool.nozzle_high_flow) and not (printer.base_model != "XL")) and not (printer.tool_count == 1))
+    id: cf01dfd7-be46-4104-8fb2-0533f5a09f9e
+    name: New
+    unconditional_inherits:
+      - NaHmyj5mTtC6Yb4eeZPQyQ
+    values:
+      only_one_perimeter_first_layer: true
+      top_one_perimeter_type: top
+    features:
+      based_id: NaHmyj5mTtC6Yb4eeZPQyQ
+      based_root_id: 9XBedIhZSsabd2+hKKUPDw

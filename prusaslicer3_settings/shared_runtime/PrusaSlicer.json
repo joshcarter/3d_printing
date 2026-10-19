@@ -1,0 +1,59 @@
+{
+  "app_config_settings": {
+    "auto_reslice": true,
+    "camera_projection_type": "orthographic",
+    "crash_reason": "",
+    "downloads_directory": "/Users/josh/Downloads",
+    "enable_preset_update": true,
+    "enable_printables": true,
+    "enable_prusa_account": false,
+    "favorite_params": [
+      "perimeters",
+      "fill_pattern",
+      "fill_density",
+      "brim_type",
+      "support_material",
+      "support_material_style"
+    ],
+    "font_size": 11,
+    "graphics_quality": "high",
+    "hide_sidebars": false,
+    "initialized": true,
+    "last_used_directory": "/Users/josh/Downloads/Module+⬝+Desk+Organizer/Upper Compartment",
+    "last_used_extension": ".3mf",
+    "last_used_physical_printer": "",
+    "layout_main_left_column_width": 300.0,
+    "layout_main_right_column_width": 280.0,
+    "mainframe_window_metrics": "0; 31; 1440; 869; 1",
+    "materials_only_favorites": false,
+    "mouse_navigation_scheme": "prusaslicer",
+    "open_hyperlink_policy": "ask",
+    "printers_only_favorites": false,
+    "restore_win_position": true,
+    "reverse_mouse_wheel_zoom": false,
+    "sentry": true,
+    "seq_top_layer_only": false,
+    "show_estimated_times_in_dbl_slider": true,
+    "show_ruler_bg_in_dbl_slider": false,
+    "show_ruler_in_dbl_slider": false,
+    "show_splash_screen": true,
+    "show_step_import_parameters": true,
+    "step_angle_precision": 1.0,
+    "step_linear_precision": 0.005,
+    "theme": "dark",
+    "translation_language": "en",
+    "use_default_colors_in_dbl_slider": false,
+    "version": "3.0.0-alpha11"
+  },
+  "app_settings_advanced": {
+    "printer_favorite_presets": [
+      "HyXD2z5/T6yMV4ae1jqjOQ",
+      "sf7EpZslQbWkosrBX/K/wg"
+    ],
+    "material_favorite_presets": [],
+    "recent_projects": [
+      "/Users/josh/Downloads/Module+⬝+Desk+Organizer/Upper Compartment/Upper Compartemnt 2.3mf",
+      "/Users/josh/Documents/3D models/Akro inserts/Akro inserts P60.3mf"
+    ]
+  }
+}

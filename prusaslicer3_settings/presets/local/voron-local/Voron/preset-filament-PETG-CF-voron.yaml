@@ -1,0 +1,43 @@
+kind: filament
+id: '5pAM57TmTJK6hSEPbFbGQA'
+name: PETG-CF @Voron
+condition: printer.base_model == "VORON"
+values:
+  filament_type: PETG-CF
+  filament_vendor: Prusa Polymers
+  filament_diameter: 1.75
+  filament_density: 1.27
+  filament_abrasive: 1
+  extrusion_multiplier: 0.95
+  temperature: 255
+  first_layer_temperature: 250
+  bed_temperature: 85
+  first_layer_bed_temperature: 85
+  cooling: 1
+  fan_always_on: 1
+  min_fan_speed: 20
+  max_fan_speed: 50
+  bridge_fan_speed: 85
+  disable_fan_first_layers: 3
+  full_fan_speed_layer: 5
+  enable_dynamic_fan_speeds: 1
+  overhang_fan_speed_0: 85
+  overhang_fan_speed_1: 85
+  overhang_fan_speed_2: 55
+  overhang_fan_speed_3: 35
+  slowdown_below_layer_time: 15
+  fan_below_layer_time: 20
+  min_print_speed: 10
+  pressure_advance: enabled
+  start_filament_gcode: "SET_VELOCITY_LIMIT ACCEL=2000"
+variants:
+- condition: tool.nozzle_diameter == 0.4
+  id: '7eLEBa06R8+TU7ZEjBEjpQ'
+  values:
+    filament_max_volumetric_speed: 9
+    pressure_advance_value: 0.045
+- condition: tool.nozzle_diameter == 0.6
+  id: '/H5EPW9tQqy6cqa922oSRg'
+  values:
+    filament_max_volumetric_speed: 14
+    pressure_advance_value: 0.03
