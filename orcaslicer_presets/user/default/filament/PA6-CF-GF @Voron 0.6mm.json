@@ -1,0 +1,378 @@
+{
+	"activate_air_filtration": [
+		"0"
+	],
+	"activate_air_filtration_during_print": [
+		"1"
+	],
+	"activate_air_filtration_on_completion": [
+		"1"
+	],
+	"activate_chamber_temp_control": [
+		"0"
+	],
+	"adaptive_pressure_advance": [
+		"0"
+	],
+	"adaptive_pressure_advance_bridges": [
+		"0"
+	],
+	"adaptive_pressure_advance_model": [
+		"0,0,0\n0,0,0"
+	],
+	"adaptive_pressure_advance_overhangs": [
+		"0"
+	],
+	"additional_cooling_fan_speed": [
+		"0"
+	],
+	"additional_fan_full_speed_layer": [
+		"0"
+	],
+	"chamber_minimal_temperature": [
+		"0"
+	],
+	"chamber_temperature": [
+		"0"
+	],
+	"close_additional_fan_first_x_layers": [
+		"1"
+	],
+	"close_fan_the_first_x_layers": [
+		"3"
+	],
+	"compatible_printers": [
+		"Voron 350 - 0.6mm"
+	],
+	"compatible_printers_condition": "",
+	"compatible_prints": [],
+	"compatible_prints_condition": "",
+	"complete_print_exhaust_fan_speed": [
+		"80"
+	],
+	"cool_plate_temp": [
+		"50"
+	],
+	"cool_plate_temp_initial_layer": [
+		"50"
+	],
+	"default_filament_colour": [
+		"#303030"
+	],
+	"dont_slow_down_outer_wall": [
+		"0"
+	],
+	"during_print_exhaust_fan_speed": [
+		"60"
+	],
+	"enable_overhang_bridge_fan": [
+		"0"
+	],
+	"enable_pressure_advance": [
+		"1"
+	],
+	"eng_plate_temp": [
+		"50"
+	],
+	"eng_plate_temp_initial_layer": [
+		"50"
+	],
+	"fan_cooling_layer_time": [
+		"20"
+	],
+	"fan_max_speed": [
+		"0"
+	],
+	"fan_min_speed": [
+		"0"
+	],
+	"filament_adaptive_volumetric_speed": [
+		"0"
+	],
+	"filament_adhesiveness_category": [
+		"0"
+	],
+	"filament_change_extrusion_role_gcode": [
+		""
+	],
+	"filament_change_length": [
+		"10"
+	],
+	"filament_cooling_before_tower": [
+		"10"
+	],
+	"filament_cooling_final_speed": [
+		"2"
+	],
+	"filament_cooling_initial_speed": [
+		"3"
+	],
+	"filament_cooling_moves": [
+		"1"
+	],
+	"filament_cost": [
+		"90"
+	],
+	"filament_density": [
+		"1.17"
+	],
+	"filament_deretraction_speed": [
+		"nil"
+	],
+	"filament_diameter": [
+		"1.75"
+	],
+	"filament_end_gcode": [
+		""
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.97"
+	],
+	"filament_flush_temp": [
+		"0"
+	],
+	"filament_flush_volumetric_speed": [
+		"0"
+	],
+	"filament_ironing_flow": [
+		"nil"
+	],
+	"filament_ironing_inset": [
+		"nil"
+	],
+	"filament_ironing_spacing": [
+		"nil"
+	],
+	"filament_ironing_speed": [
+		"nil"
+	],
+	"filament_is_support": [
+		"0"
+	],
+	"filament_loading_speed": [
+		"14"
+	],
+	"filament_loading_speed_start": [
+		"19"
+	],
+	"filament_long_retractions_when_cut": [
+		"nil"
+	],
+	"filament_max_volumetric_speed": [
+		"12"
+	],
+	"filament_minimal_purge_on_wipe_tower": [
+		"0"
+	],
+	"filament_multitool_ramming": [
+		"0"
+	],
+	"filament_multitool_ramming_flow": [
+		"10"
+	],
+	"filament_multitool_ramming_volume": [
+		"10"
+	],
+	"filament_notes": [
+		"Polymaker Fiberon PA6-CF20 and PA6-GF25, Voron 0.6mm nozzle. One preset for both: the vendor print settings are identical. Split it if calibration gives different PA or flow values.\n\nABRASIVE: the Diamondback 0.6mm is fine.\n\nDRY IT: Polymaker says print straight from a heated dryer the whole time (anneal/dry at 100C). Popping or crackling at the nozzle means it is wet. Wet nylon is the most common cause of stringing, jams, and rough surfaces, independent of any setting here.\n\nVendor spec (TDS, same for both): nozzle 280-300C, bed 40-50C (do not exceed 50C; Warp-Free formula), chamber room temp, cooling fan 0%, speed 30-300 mm/s, direct-drive retraction 3mm @ 40mm/s. Density 1.17 (CF20) / 1.2 (GF25); 1.17 used here. No max volumetric figure published. Glue stick or Magigoo PA if adhesion is poor. Anneal parts 100C for 16h, then moisture-condition.\n\nRetraction deliberately ignores the vendor 3mm: on a short-melt-zone direct drive (G2E + Rapido 2) it pulls molten nylon into the heatbreak and packs fibers there. 0.8mm matches the printer default; tune 0.4-1.2 in Orca's retraction test.\n\nUNCALIBRATED (all seeds): nozzle temp 290, extrusion multiplier 1.0, max volumetric 12, pressure advance 0.02 (Orca pressure_advance), retraction 0.8. Order: temp tower (280-300), flow ratio, PA, max flowrate, retraction.\n\nReplaces 'PA6 @Voron' for these filaments. That preset was 0.4mm, with 3mm retraction, a 0.76 extrusion multiplier, and fan enabled.\n\nPrusaSlicer counterpart: 'PA6-CF-GF @Voron 0.6mm.ini'. Copy calibrated values back by hand; PA goes into SET_PRESSURE_ADVANCE in start_filament_gcode."
+	],
+	"filament_printable": [
+		"3"
+	],
+	"filament_ramming_parameters": [
+		"130 120 2.70968 2.93548 3.32258 3.83871 4.58065 5.54839 6.51613 7.35484 7.93548 8.16129| 0.05 2.66451 0.45 3.05805 0.95 4.05807 1.45 5.97742 1.95 7.69999 2.45 8.1936 2.95 11.342 3.45 11.4065 3.95 7.6 4.45 7.6 4.95 7.6"
+	],
+	"filament_retract_before_wipe": [
+		"nil"
+	],
+	"filament_retract_lift_above": [
+		"nil"
+	],
+	"filament_retract_lift_below": [
+		"nil"
+	],
+	"filament_retract_lift_enforce": [
+		"nil"
+	],
+	"filament_retract_restart_extra": [
+		"nil"
+	],
+	"filament_retract_when_changing_layer": [
+		"nil"
+	],
+	"filament_retraction_distances_when_cut": [
+		"nil"
+	],
+	"filament_retraction_length": [
+		"0.8"
+	],
+	"filament_retraction_minimum_travel": [
+		"nil"
+	],
+	"filament_retraction_speed": [
+		"nil"
+	],
+	"filament_settings_id": [
+		"PA6-CF-GF @Voron 0.6mm"
+	],
+	"filament_shrink": [
+		"100%"
+	],
+	"filament_shrinkage_compensation_z": [
+		"100%"
+	],
+	"filament_soluble": [
+		"0"
+	],
+	"filament_stamping_distance": [
+		"0"
+	],
+	"filament_stamping_loading_speed": [
+		"0"
+	],
+	"filament_start_gcode": [
+		"SET_VELOCITY_LIMIT ACCEL=2000"
+	],
+	"filament_toolchange_delay": [
+		"0"
+	],
+	"filament_tower_interface_pre_extrusion_dist": [
+		"10"
+	],
+	"filament_tower_interface_pre_extrusion_length": [
+		"0"
+	],
+	"filament_tower_interface_print_temp": [
+		"-1"
+	],
+	"filament_tower_interface_purge_volume": [
+		"20"
+	],
+	"filament_tower_ironing_area": [
+		"4"
+	],
+	"filament_type": [
+		"PA"
+	],
+	"filament_unloading_speed": [
+		"20"
+	],
+	"filament_unloading_speed_start": [
+		"100"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"filament_wipe": [
+		"nil"
+	],
+	"filament_wipe_distance": [
+		"nil"
+	],
+	"filament_z_hop": [
+		"nil"
+	],
+	"filament_z_hop_types": [
+		"nil"
+	],
+	"first_x_layer_fan_speed": [
+		"0"
+	],
+	"from": "User",
+	"full_fan_speed_layer": [
+		"0"
+	],
+	"hot_plate_temp": [
+		"50"
+	],
+	"hot_plate_temp_initial_layer": [
+		"50"
+	],
+	"idle_temperature": [
+		"0"
+	],
+	"inherits": "",
+	"internal_bridge_fan_speed": [
+		"-1"
+	],
+	"ironing_fan_speed": [
+		"-1"
+	],
+	"long_retractions_when_ec": [
+		"0"
+	],
+	"name": "PA6-CF-GF @Voron 0.6mm",
+	"nozzle_temperature": [
+		"290"
+	],
+	"nozzle_temperature_initial_layer": [
+		"290"
+	],
+	"nozzle_temperature_range_high": [
+		"300"
+	],
+	"nozzle_temperature_range_low": [
+		"280"
+	],
+	"overhang_fan_speed": [
+		"0"
+	],
+	"overhang_fan_threshold": [
+		"95%"
+	],
+	"pellet_flow_coefficient": [
+		"0.4157"
+	],
+	"pressure_advance": [
+		"0.02"
+	],
+	"reduce_fan_stop_start_freq": [
+		"0"
+	],
+	"required_nozzle_HRC": [
+		"0"
+	],
+	"retraction_distances_when_ec": [
+		"10"
+	],
+	"slow_down_for_layer_cooling": [
+		"1"
+	],
+	"slow_down_layer_time": [
+		"15"
+	],
+	"slow_down_min_speed": [
+		"15"
+	],
+	"supertack_plate_temp": [
+		"35"
+	],
+	"supertack_plate_temp_initial_layer": [
+		"35"
+	],
+	"support_material_interface_fan_speed": [
+		"-1"
+	],
+	"temperature_vitrification": [
+		"100"
+	],
+	"textured_cool_plate_temp": [
+		"50"
+	],
+	"textured_cool_plate_temp_initial_layer": [
+		"50"
+	],
+	"textured_plate_temp": [
+		"50"
+	],
+	"textured_plate_temp_initial_layer": [
+		"50"
+	],
+	"version": "2.1.1.0",
+	"volumetric_speed_coefficients": [
+		""
+	]
+}
